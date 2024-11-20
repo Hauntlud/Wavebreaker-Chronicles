@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8129778d3baf84a93c5b20995034d2, type: 3}
+  m_Name: Audio LevelUp
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: 4aab00a8cd2682f4bb3a9004d2eea272, type: 3}
+  - {fileID: 8300000, guid: e603647927add45409cdcc3315490044, type: 3}
+  - {fileID: 8300000, guid: 08f1adde8bbd7ba4c8e50732d975e9a6, type: 3}
+  - {fileID: 8300000, guid: d3e7dcc78e297984fbae4beb9d9c37b3, type: 3}
+  - {fileID: 8300000, guid: 2aa552bb9dae76545a73e3abdfbb9279, type: 3}
+  volume: 1
+  pitch: 1
+  randomizePitch: 0
+  minPitch: 0.9
+  maxPitch: 1.1
+  isLoop: 1

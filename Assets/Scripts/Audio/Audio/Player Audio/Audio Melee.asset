@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8129778d3baf84a93c5b20995034d2, type: 3}
+  m_Name: Audio Melee
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: f59d1d7851d885f429b1a89a01180589, type: 3}
+  - {fileID: 8300000, guid: 29316c24bbf1ecd428d992e698b6cfc8, type: 3}
+  - {fileID: 8300000, guid: abc58b75b6a09b0428ffd51fe8b56084, type: 3}
+  - {fileID: 8300000, guid: 094b2563d0777bf43ae2ef460f70c2c6, type: 3}
+  - {fileID: 8300000, guid: 6817f3bc43360904995a89ae44b57615, type: 3}
+  - {fileID: 8300000, guid: 7447156f9fa4ac943b273155d76ca671, type: 3}
+  - {fileID: 8300000, guid: 661f94f519508fc4fa1014b702e83891, type: 3}
+  - {fileID: 8300000, guid: d0302920ce942c242b6d64322c1a3498, type: 3}
+  - {fileID: 8300000, guid: 8a88671e33564ef458afc5e344cb2f94, type: 3}
+  - {fileID: 8300000, guid: 09d3d2c841f04a44cad77ba9031ab65e, type: 3}
+  - {fileID: 8300000, guid: 90f2a46c1ab9dd84cb8ca97fcb2c9604, type: 3}
+  volume: 1
+  pitch: 1
+  randomizePitch: 0
+  minPitch: 0.9
+  maxPitch: 1.1
+  isLoop: 0

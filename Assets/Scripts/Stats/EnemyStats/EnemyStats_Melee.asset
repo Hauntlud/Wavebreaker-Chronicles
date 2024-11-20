@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 954376106b053934588f8693f2888a30, type: 3}
+  m_Name: EnemyStats_Melee
+  m_EditorClassIdentifier: 
+  baseStats:
+    xpReward: 100
+    maxHealth: 100
+    moveSpeed: 5
+    attackDamage: 20
+    meleeAttackSpeed: 1
+    rangedAttackSpeed: 1
+    boxDimensions: {x: 2, y: 1, z: 2}
+    attackRange: 3
+    DifficultyRanges:
+      minHealth: 10
+      maxHealth: 40
+      minMoveSpeed: 3.1
+      maxMoveSpeed: 8
+      minAttackDamage: 5
+      maxAttackDamage: 30
+      minAttackMeleeCooldown: 1
+      maxAttackMeleeCooldown: 5
+      minAttackRangeCooldown: 1
+      maxAttackRangeCooldown: 5
+      attackRangeMin: 1.5
+      attackRangeMax: 5
+      boxDimensionsMin: {x: 1.5, y: 1, z: 1.5}
+      boxDimensionsMax: {x: 5, y: 1, z: 5}
+    attackType: 0
+    hasAOE: 0

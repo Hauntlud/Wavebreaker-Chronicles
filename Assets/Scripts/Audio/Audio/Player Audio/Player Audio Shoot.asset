@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f8129778d3baf84a93c5b20995034d2, type: 3}
+  m_Name: Player Audio Shoot
+  m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 8300000, guid: c0dd44a116fb36847ac92fb1168b90d7, type: 3}
+  - {fileID: 8300000, guid: c2ae0ea11eb96b042b5346fe28569687, type: 3}
+  - {fileID: 8300000, guid: 141e81f048a7c014587f667a88aa2f31, type: 3}
+  - {fileID: 8300000, guid: d0a7c83ba3ae86e4b89c859b30c5ccc2, type: 3}
+  volume: 1
+  pitch: 1
+  randomizePitch: 1
+  minPitch: 0.95
+  maxPitch: 1.05
+  isLoop: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0ec199211894594083d6e2074b5d3bf, type: 3}
+  m_Name: ThornsDamageAbility
+  m_EditorClassIdentifier: 
+  abilityName: ThornsDamageAbility
+  abilityNameString: Thorns
+  abilityPrefab: {fileID: 0}
+  particleEffectPlayer: {fileID: 138478, guid: ca22a39cb3cd5934eb44c379371b2cbb, type: 3}
+  particleEffectEnemy: {fileID: 138478, guid: 5f2e36f6a29564b46834bdb16683d782, type: 3}
+  specialAudioCollection: {fileID: 11400000, guid: aa4ecb6ea391c324c84c0b42c01e111f,
+    type: 2}
+  spriteImage: {fileID: 21300000, guid: d137d1cd42e68564e8e6e7388c52bf2e, type: 3}
+  playerMaterial: {fileID: 2100000, guid: 8ae4743b66a529947b6aaf27b5de7906, type: 2}
+  enemymaterial: {fileID: 2100000, guid: 9904ee25bf141a5468e9dd8c9e4d6899, type: 2}
+  abilityStats:
+    cooldown: 0
+    quantity: 0
+    speed: 0
+    damage: 0
+    range: 0
